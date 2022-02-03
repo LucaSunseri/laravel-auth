@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
     <div class="container">
@@ -13,8 +13,9 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
-                        Pagina Admin
+                        <h2>Benvenuto {{ Auth::user()->name }}</h2>
+                        <a href="{{ route('admin.posts.index') }}" class="btn btn-success">Elenco post</a>
+                        <a href="{{ route('admin.posts.create') }}" class="btn btn-primary">Crea un nuovo post</a>
                     </div>
                 </div>
             </div>
