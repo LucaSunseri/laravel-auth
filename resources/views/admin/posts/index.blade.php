@@ -23,7 +23,7 @@
                             <a class="btn btn-success" href="{{ route('admin.posts.show', $post) }}">INFO</a>
                         </td>
                         <td>
-                            <a class="btn btn-primary" href="#">EDIT</a>
+                            <a class="btn btn-primary" href="{{ route('admin.posts.edit', $post) }}">EDIT</a>
                         </td>
                         <td>
                             <a class="btn btn-danger" href="#">DELETE</a>
