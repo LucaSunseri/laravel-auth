@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    | Elenco Post
+@endsection
+
 @section('content')
     <div class="container">
         <h1>Lista Post</h1>

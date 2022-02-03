@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    | Modifica Post - {{ $post->title }}
+@endsection
+
 @section('content')
     <div class="container">
 

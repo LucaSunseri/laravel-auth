@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+    | Crea nuovo Post
+@endsection
+
 @section('content')
     <div class="container">
 
